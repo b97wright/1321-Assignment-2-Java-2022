@@ -18,9 +18,9 @@ public class Assignment2B {
         td = kf2 - kf1;
 
         curX = (kf1 + (td * (cfp/30)));
-        System.out.println("At 30 FPS, their current X position would be " + curX + ".");
+        System.out.println("At 30 FPS, their current X position would be " + String.format("%.1f", curX) + ".");
         curX = (kf1 + (td * (cfp/60)));
-        System.out.println("At 30 FPS, their current X position would be " + curX + ".");
+        System.out.println("At 30 FPS, their current X position would be " + String.format("%.1f", curX) + ".");
         
     }
 }
